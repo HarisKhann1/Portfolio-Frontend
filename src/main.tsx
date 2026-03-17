@@ -5,8 +5,9 @@ import './index.css'
 import App from './App.tsx'
 
 // pages
-import Home from './components/pages/Home.tsx'
-import Login from './components/pages/Login.tsx'
+import Home from './pages/Home.tsx'
+import Login from './pages/Login.tsx'
+import AddProjects from './pages/Dashboard/AddProjects.tsx'
 
 // create browser router and render the app
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
         element: <Login />
       }
     ]
+  },
+  {
+    path: '/dashboard',
+    element: <AddProjects />
   }
 ]);
 

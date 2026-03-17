@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import logo from '../../assets/pictures/haris_khan_portfolio_picture.jpg';
+import logo from '../assets/pictures/haris_khan_portfolio_picture.jpg';
 import { useEffect, useState } from 'react';
 
 function Header() {
